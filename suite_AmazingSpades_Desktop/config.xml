@@ -1,0 +1,13 @@
+<testconfig version="1.0">
+<information>
+<summary/>
+<description/>
+</information>
+<testsettings>
+<imageSearchThreshold>80</imageSearchThreshold>
+<imageSearchTolerant>true</imageSearchTolerant>
+<imageSearchMaxScale>100</imageSearchMaxScale>
+<imageSearchMultiscale>true</imageSearchMultiscale>
+<imageSearchMinScale>62</imageSearchMinScale>
+</testsettings>
+</testconfig>
