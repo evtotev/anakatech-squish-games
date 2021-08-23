@@ -1,0 +1,15 @@
+<testconfig version="1.0">
+<information>
+<summary/>
+<description/>
+</information>
+<testsettings>
+<imageSearchThreshold>85.293</imageSearchThreshold>
+<logScreenshotOnError>true</logScreenshotOnError>
+<imageSearchTolerant>true</imageSearchTolerant>
+<imageSearchMaxScale>126</imageSearchMaxScale>
+<imageSearchMultiscale>true</imageSearchMultiscale>
+<logScreenshotOnFail>true</logScreenshotOnFail>
+<imageSearchMinScale>49</imageSearchMinScale>
+</testsettings>
+</testconfig>
