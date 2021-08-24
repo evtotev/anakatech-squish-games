@@ -223,6 +223,14 @@ function clickStopButton() {
     click(names.stop_btn);
 }
 
+function clickPlayButtonImage(){
+    clickImg(playBtn);
+}
+
+function clickStopButtonImage(){
+    clickImg(stopBtn);
+}
+
 function doubleClickPlayButton() {
     doubleClick(names.play_btn);
 }
@@ -355,9 +363,9 @@ function spamBetButtons(bet) {
     bet = getBet();
 
     //click(names.bet_less);
-    clickImg(betIncrease);
-    test.compare(getBet(), bet);
-    test.log('bet: ' + bet);
+    //clickImg(betIncrease);
+    //test.compare(getBet(), bet);
+    //test.log('bet: ' + bet);
 }
 
 function spamInfoPayButtons(bet) {
