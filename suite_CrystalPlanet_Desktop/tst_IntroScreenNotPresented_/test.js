@@ -6,6 +6,8 @@ source(findFile("scripts", "imageVerifications.js"));
 function main()
 {
     //clearCacheAndOpenGame(253, '');
+    
+    clearCache(253);
         
     openGame2('cocos',253,'','no');
     
