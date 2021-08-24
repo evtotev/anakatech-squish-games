@@ -6,8 +6,9 @@ source(findFile("scripts", "imageVerifications.js"));
 function main() 
 {    
     //clearCacheAndOpenGame(150);
-        
-    openGame('cocos',150,'','no');
+    clearCache(150);
+
+    openGame2('cocos',150,'','no');
     snooze(10);
 
     verifyIntroScreenPresented(introScreen, introScreenTolerant);
