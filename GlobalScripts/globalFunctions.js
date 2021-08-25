@@ -247,10 +247,12 @@ function checkIfDecimal(newTotalBet) {
 function checkIfNotDecimal(newTotalBet) {
     if (newTotalBet.includes('.')) {
         test.log("Is decimal");
+        return undefined;
     } else {
     return newTotalBet = parseToNumber(newTotalBet);
     }
 }
+
 
 function clearGameSession() {
     click(names.selected_game);
@@ -318,7 +320,7 @@ function closeError() {
 }
 
 function closeErrorImg(){
-    clickImg(closeErrorBtn, closeErrorBtnTolerant);
+    clickImg(closeErrorBtn, {tolerant: 90});
 }
 
 function clickStartFS() {
