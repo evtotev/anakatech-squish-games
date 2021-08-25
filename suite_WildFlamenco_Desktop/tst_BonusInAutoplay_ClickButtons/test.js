@@ -15,8 +15,9 @@ function main() {
     const bet = getBet();
 
     startAutoplay();
-    
-    waitForImage(bonusMenu, bonusMenuTolerant);
+        
+    //waitForImage(bonusMenu, bonusMenuTolerant);
+    waitForImage(match3ToWin, {timeout:25000});
     test.log('In bonus');
     
     spamBetButtons(bet);
@@ -34,4 +35,5 @@ function main() {
     }
 
     test.imagePresent(playBtn);
+    test.compare(bet,5)
 }

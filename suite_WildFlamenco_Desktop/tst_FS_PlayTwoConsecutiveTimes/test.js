@@ -13,7 +13,7 @@ function main() {
     
     clickStartButton();
 
-    clickPlayButton();
+    clickPlayButtonImage();
     
     waitForImage(pickFSbtn, {timeout:35000});
 
@@ -26,7 +26,7 @@ function main() {
     
     waitForImage(playBtn);
     
-    clickPlayButton();
+    clickPlayButtonImage();
     
     waitForImage(pickFSbtn, {timeout:35000});
 

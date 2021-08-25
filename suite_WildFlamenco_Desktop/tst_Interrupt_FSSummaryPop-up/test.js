@@ -17,7 +17,7 @@ function main()
     
     const totalBet = getTotalBet();
 
-    clickPlayButton();
+    clickPlayButtonImage();
     
     snooze(10);
 

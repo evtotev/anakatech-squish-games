@@ -12,10 +12,12 @@ function main()
     clickStartButton();
     
     startAutoplay();
-    
+    test.log('Auto started');
+
     snooze(3);
     
     clickImg(stopAutoplayBtn);
+    test.log('AutoStop btn clicked');
 
     test.imagePresent(playBtn);
 }

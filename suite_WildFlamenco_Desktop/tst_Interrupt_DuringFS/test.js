@@ -16,7 +16,7 @@ function main()
     
     const totalBet = getTotalBet();
 
-    clickPlayButton();
+    clickPlayButtonImage();
     
     test.imagePresent(pickFSbtn, pickFSbtnTolerant);
    

@@ -12,11 +12,11 @@ function main() {
 
     clickStartButton();
 
-    click(names.turbo_btn);
+    clickImg(turboBtn);
 
     startAutoplay();
-
-    waitForImage(bonusMenu, bonusMenuTolerant);
+    
+    waitForImage(match3ToWin, {timeout:25000});
     test.log('In bonus');
     
     waitForImage(sign20Lines, {timeout: 85000});

@@ -104,3 +104,6 @@ const playSettingsTolerant = {
 
 const infoPageBtn = "infoPageBtn";
 const payTableBtn = "payTableBtn";
+const turboBtn = "turboBtn";
+
+const match3ToWin = "match3ToWin";

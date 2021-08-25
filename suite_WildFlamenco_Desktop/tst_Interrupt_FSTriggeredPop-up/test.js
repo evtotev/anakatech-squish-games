@@ -14,7 +14,7 @@ function main()
     
     clickStartButton();
 
-    clickPlayButton();
+    clickPlayButtonImage();
     
     test.imagePresent(pickFSbtn, pickFSbtnTolerant);
     

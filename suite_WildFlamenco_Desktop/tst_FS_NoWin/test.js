@@ -19,7 +19,7 @@ function main()
     let oldBalance = getBalance();
     test.log('Old balance: ' + oldBalance);
     
-    clickPlayButton();
+    clickPlayButtonImage();
     snooze(10);
     
     waitForImage(pickFSbtn, {timeout:35000});
