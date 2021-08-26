@@ -13,12 +13,10 @@ function main()
 
     clickStartButton();
     
-    //clickPlayButton();
-    clickImg(playBtn);
+    clickPlayButtonImage();
     test.log('Play btn clicked');
     
     clickStopButton();
-    //clickImg(stopBtn); it take too much time to click
     test.log('Stop btn clicked');
     
     waitForImage(playBtn,playBtnTolerant);  
