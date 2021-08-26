@@ -17,7 +17,7 @@ function main()
     let oldBalance = getBalance();
     test.log('Old balance: ' + oldBalance);
     
-    clickPlayButton(); 
+    clickPlayButtonImage(); 
       
     let newBalance = getBalance();
     test.log('New balance: ' + newBalance);

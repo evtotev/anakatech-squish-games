@@ -13,7 +13,8 @@ function main() {
     
     test.imagePresent(playBtn, playBtnTolerant);
     
-    click(names.turbo_btn);
+    //click(names.turbo_btn);
+    clickImg(turboBtn);
     
     startAutoplay();
     

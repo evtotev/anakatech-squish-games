@@ -30,6 +30,8 @@ const playTurboBtnTolerant = {
     threshold: 95.661
 }
 
+const turboBtn = "turboBtn";
+
 const stopBtn = "stopBtn2";
 
 const stopAutoplayBtn = "stopAutoplayBtn";

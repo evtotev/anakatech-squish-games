@@ -19,7 +19,7 @@ function main() {
     click(names.bet_less);
     let totalBetBeforeFS = getTotalBet();
 
-    clickPlayButton();
+    clickPlayButtonImage();
 
     select4Horses();
 

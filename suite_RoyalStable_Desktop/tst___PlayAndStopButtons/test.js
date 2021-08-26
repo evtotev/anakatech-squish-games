@@ -13,10 +13,10 @@ function main()
 
     clickStartButton();
     
-    clickPlayButton();
+    clickPlayButtonImage();
     waitForImage(stopBtn);
     test.log('Play button clicked')
-    clickStopButton();
+    clickStopButtonImage();
     waitForImage(playBtn, playBtnTolerant)
     test.log('Stop button clicked')
 

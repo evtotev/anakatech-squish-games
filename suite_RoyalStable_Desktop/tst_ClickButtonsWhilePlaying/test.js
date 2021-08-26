@@ -15,7 +15,7 @@ function main()
     const bet = getBet();
     const lines = getLinesAmount();
     
-    clickPlayButton();
+    clickPlayButtonImage();
     spamBetButtons(bet);
     
     clickPlayButton();

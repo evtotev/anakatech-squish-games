@@ -36,7 +36,7 @@ function main()
     let oldBalance = getBalance();
     test.log('Old balance: ' + oldBalance);
 
-    clickPlayButton();
+    clickPlayButtonImage();
 
     playBtnTolerant.timeout = 30000;
     waitForImage(playBtn, playBtnTolerant);

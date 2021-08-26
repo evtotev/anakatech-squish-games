@@ -15,7 +15,7 @@ function main()
     
     clickStartButton();
 
-    clickPlayButton();
+    clickPlayButtonImage();
     snooze(10);
     
     select4Horses();
