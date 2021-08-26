@@ -11,7 +11,7 @@ function main()
     
     clickStartButton();
     
-    clickPlayButton();
+    clickPlayButtonImage();
     
     let oldGameSession = getGameSession();
     

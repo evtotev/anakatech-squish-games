@@ -41,7 +41,7 @@ function main()
     let oldBalance = getBalance();
     test.log('Old balance: ' + oldBalance);
 
-    clickPlayButton();
+    clickPlayButtonImage();
     
     waitForImage(playBtn, playBtnTolerant);
 

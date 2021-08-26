@@ -16,7 +16,7 @@ function main()
     let oldBalance = getBalance();
     test.log('Old balance: ' + oldBalance);
       
-    clickPlayButton();
+    clickPlayButtonImage();
 
     waitForImage(playBtn,{maxScale:106,threshold:99.374});
     

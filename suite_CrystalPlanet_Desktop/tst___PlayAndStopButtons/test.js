@@ -13,10 +13,7 @@ function main()
 
     clickStartButton();
     
-    clickPlayButton();
-    waitForImage(stopBtn,{
-    maxScale:106
-    });
+    clickPlayButtonImage();
     test.log('Play button clicked')
     
     clickStopButton();

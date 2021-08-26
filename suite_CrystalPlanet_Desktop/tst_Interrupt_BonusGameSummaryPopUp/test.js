@@ -20,7 +20,7 @@ function main()
     let oldBalance = getBalance();
     test.log('Old balance: ' + oldBalance);
        
-    clickPlayButton();
+    clickPlayButtonImage();
     test.log('Balance: ' + getBalance());
     
     waitForImage(startBtnBonus, startBtnBonusTolerant);

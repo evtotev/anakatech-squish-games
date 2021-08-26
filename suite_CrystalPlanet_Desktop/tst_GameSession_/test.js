@@ -19,7 +19,7 @@ function main()
             oldGameSession = getGameSession();
         }
         
-        clickPlayButton();
+        clickPlayButtonImage();
         
        // handleBonusFSGames();
         
