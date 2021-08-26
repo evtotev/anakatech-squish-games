@@ -13,8 +13,7 @@ function main()
 
     clickStartButton();
     
-    clickPlayButton();
-    waitForImage(stopBtn);
+    clickPlayButtonImage();
     test.log('Play button clicked')
     
     clickStopButton();

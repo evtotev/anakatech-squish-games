@@ -9,7 +9,7 @@ function main()
 
     clickStartButton();
 
-    clickPlayButton();
+    clickPlayButtonImage();
     snooze(7);
     
     //test.compare(getErrorTitle(), "999 - Wrong cheat for the game");

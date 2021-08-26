@@ -15,7 +15,7 @@ function main()
     
     clickStartButton();
 
-    clickPlayButton();
+    clickPlayButtonImage();
     snooze(10);
     
     waitForImage(pickFSbtn, {timeout:35000});

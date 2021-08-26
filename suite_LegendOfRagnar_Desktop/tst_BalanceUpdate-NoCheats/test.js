@@ -23,7 +23,7 @@ function main()
         let oldBalance = getBalance();
         test.log('Old balance: ' + oldBalance);
           
-        test.pass(clickPlayButton());
+        test.pass(clickPlayButtonImage());
         snooze(10);
         handleBonusFSGames();
         snooze(1);

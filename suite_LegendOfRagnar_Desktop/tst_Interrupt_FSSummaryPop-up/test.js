@@ -15,7 +15,7 @@ function main()
     
     clickStartButton();
 
-    clickPlayButton();
+    clickPlayButtonImage();
         
     clickImg(pickFSbtn, pickFSbtnTolerant);
         

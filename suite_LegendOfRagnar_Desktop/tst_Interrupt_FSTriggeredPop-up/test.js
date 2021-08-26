@@ -13,7 +13,7 @@ function main()
     
     clickStartButton();
 
-    clickPlayButton();
+    clickPlayButtonImage();
     
     snooze(4);
     
