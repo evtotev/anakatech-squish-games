@@ -11,13 +11,15 @@ function main()
     
     openGame2('cocos',150,'','no');
     
-    snooze(5);
+    snooze(10);
     
     verifyIntroScreenPresented(introScreen, introScreenTolerant);
     
-    clickImg(checkbox, checkboxTolerant);
+    checkDontShowThisAgain(checkbox, checkboxTolerant);
+    test.log('Checkbox clicked');
      
     clickStartButton();
+    
     snooze(5);
     
     reloadBrowserTab();

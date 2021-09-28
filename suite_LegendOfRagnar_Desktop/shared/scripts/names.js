@@ -73,3 +73,4 @@ export var bet_unclickable = {"container": game_tab, "className": "component-but
 export var stopAutoTurbo = "{title='SF`150' type='BrowserTab'}.DOCUMENT.HTML1.BODY1.DIV1.DIV3.DIV1.DIV1.DIV3.DIV3.DIV1.DIV7.svg1.g1.path1";
 export var infoPage = "{title='SF`150' type='BrowserTab'}.DOCUMENT.HTML1.BODY1.DIV2.DIV1.DIV2.DIV1.DIV3.DIV3.svg1.g1.path1";
 export var stop_btn = {"container": game_tab, "id": "btn_stop", "tagName": "div", "visible": true};
+export var selectPlayerMenu = {"container": games_menu_environment, "occurrence": 3, "tagName": "SELECT", "type": "select-one", "visible": true};

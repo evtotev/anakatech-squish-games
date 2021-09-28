@@ -78,4 +78,4 @@ export var titleSF281TypeBrowserTabDOCUMENTHTML1BODY1DIV2DIV1DIV2DIV1DIV2DIV3DIV
 export var titleSF281TypeBrowserTabDOCUMENTHTML1BODY1DIV2DIV1DIV2DIV1DIV2DIV3DIV3DIV1DIV2Svg1G1Path1 = "{title='SF`281' type='BrowserTab'}.DOCUMENT.HTML1.BODY1.DIV2.DIV1.DIV2.DIV1.DIV2.DIV3.DIV3.DIV1.DIV2.svg1.g1.path1";
 export var bet_unclickable = {"container": game_tab, "className": "unclickable"};
 //export var gamesMenuSelectOne_2 = {"container": games_menu_environment, "occurrence": 5, "tagName": "SELECT", "type": "select-one", "visible": true};
-//export var gamesMenuSelectOne_2 = {"container": games_menu_environment, "occurrence": 5, "tagName": "SELECT", "type": "select-one", "visible": true};
+export var selectPlayerMenu = {"container": games_menu_environment, "occurrence": 3, "tagName": "SELECT", "type": "select-one", "visible": true};

@@ -68,7 +68,8 @@ function openGame2(gameType, id, cheat, juris) {
 function clearCache(id) {
     goToTestEnvironment();
     
-    gamesMenuSelectOne();
+    //gamesMenuSelectOne();
+    selectPlayer();
     
     findGameById(`${id}`);
     
@@ -119,6 +120,13 @@ function findGameById(id) {
 
 function gamesMenuSelectOne() {
     click(names.gamesMenuSelectOne);
+    for(let i = 0; i <= 14; i++){
+        nativeType("<Down>");
+    }
+}
+
+function selectPlayer(){
+    click(names.selectPlayerMenu);
     for(let i = 0; i <= 14; i++){
         nativeType("<Down>");
     }

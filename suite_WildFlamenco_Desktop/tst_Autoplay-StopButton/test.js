@@ -3,19 +3,19 @@ source(findFile("scripts", "globalFunctions.js"));
 source(findFile("scripts", "suiteFunctions.js"));
 source(findFile("scripts", "images.js"));
 
-function main() 
-{
-    //clearCacheAndOpenGame(282,'13147,13147');
-        
-    openGame('construct2',282,'13147,13147','no');
+function main() {
+
+    openGame('construct2', 282, '13147,13147', 'no');
+
+    snooze(5);
 
     clickStartButton();
-    
+
     startAutoplay();
     test.log('Auto started');
 
     snooze(3);
-    
+
     clickImg(stopAutoplayBtn);
     test.log('AutoStop btn clicked');
 

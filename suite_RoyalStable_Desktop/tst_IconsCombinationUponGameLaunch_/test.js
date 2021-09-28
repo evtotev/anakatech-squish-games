@@ -9,8 +9,9 @@ function main()
         
     openGame('construct2',275,'','no');
     
+    snooze(5);
+    
     clickStartButton();
 
     verifyDefaultIcons(defaultIcons);
 }
-

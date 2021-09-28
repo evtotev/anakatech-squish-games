@@ -4,24 +4,23 @@ source(findFile("scripts", "suiteFunctions.js"));
 source(findFile("scripts", "images.js"));
 
 function main() {
-    //clearCacheAndOpenGame(282,'13147,13147');
-        
-    openGame('construct2',282,'13147,13147','no');
 
+    openGame('construct2', 282, '13147,13147', 'no');
+
+    waitForImage(startBtn);
     clickStartButton();
-    
+
     test.imagePresent(playBtn, playBtnTolerant);
-       
+
     //click(names.turbo_btn);
     clickImg(turboBtn);
-    
-    startAutoplay();
-    
-    snooze(3);
-    
-    clickImg(stopAutoTurboBtn);
+    test.log('Turbo clicked');
 
-    snooze(3);
-    
+    startAutoplay();
+    test.log('Auto Started');
+
+    clickImg(stopAutoTurboBtn);
+    test.log('Auto Stopped');
+
     test.imagePresent(playTurboBtn, playBtnTolerant);
 }

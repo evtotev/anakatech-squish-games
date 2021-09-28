@@ -7,8 +7,6 @@ function main()
 {
     //clearCacheAndOpenGame(150);
     
-    //clearCache(150);
-    
     openGame('cocos',150,'','no');
     
     snooze(5);
@@ -17,4 +15,3 @@ function main()
 
     verifyDefaultIcons(defaultIcons, defaultIconsTolerant);
 }
-

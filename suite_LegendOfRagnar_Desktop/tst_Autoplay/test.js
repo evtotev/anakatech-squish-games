@@ -3,14 +3,12 @@ source(findFile("scripts", "globalFunctions.js"));
 source(findFile("scripts", "suiteFunctions.js"));
 source(findFile("scripts", "images.js"));
 
-function main() 
-{
-    //clearCacheAndOpenGame(150);
-    
-    openGame('cocos',150,'','no');
+function main() {
+
+    openGame('cocos', 150, '', 'no');
 
     clickStartButton();
-    
+
     startAutoplay();
 
     while (true) {

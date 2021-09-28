@@ -68,3 +68,4 @@ export var sF282TotalBet1TotalWin0EndBalance2008089955TD = {"container": game_ta
 export var sF282D81066a5A8f24ece8cfe080deb8875f2TD = {"container": game_tab, "simplifiedInnerText": "d81066a5-a8f2-4ece-8cfe-080deb8875f2", "tagName": "TD", "visible": true};
 export var gamesMenuSelectOne = {"container": games_menu_environment, "tagName": "SELECT", "type": "select-one", "visible": true};
 export var clearCheat = "{title='Games Menu' type='BrowserTab'}.DOCUMENT.HTML1.BODY1.DIV1.SECTION1.DIV2.DIV3.DIV6.DIV1.I1";
+export var selectPlayerMenu = {"container": games_menu_environment, "occurrence": 3, "tagName": "SELECT", "type": "select-one", "visible": true};

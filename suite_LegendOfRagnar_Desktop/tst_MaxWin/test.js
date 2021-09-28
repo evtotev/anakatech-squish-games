@@ -3,9 +3,12 @@ source(findFile("scripts", "globalFunctions.js"));
 source(findFile("scripts", "balanceVerifications_slot.js"));
 source(findFile("scripts", "images.js"));
 //https://netomedia.atlassian.net/browse/GSE-444
-function main() 
-{
-    openGame('cocos',150,'!13244','no');
+
+function main() {
+    
+    openGame('cocos', 150, '!13244', 'no');
+
+    snooze(5);
 
     clickStartButton();
 
@@ -45,4 +48,3 @@ function main()
 
     verifyBalanaceWhenMaxWin(newBalance, oldBalance, totalBet, 1000);
 }
-

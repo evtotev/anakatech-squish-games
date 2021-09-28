@@ -9,6 +9,8 @@ function main()
         
     openGame('construct2',282,'!13147','no');
     
+    snooze(5);
+    
     clickStartButton();
 
     let totalBet = getTotalBet();
@@ -26,4 +28,3 @@ function main()
 
     verifyBalanceWhenLose(newBalance, oldBalance, totalBet);
 }
-

@@ -8,21 +8,23 @@ function main()
 {
     clearCache(282);
         
-    openGame('construct2',282,'','no');
+    openGame2('construct2',282,'','no');
     
-    snooze(5);
+    snooze(10);
     
     verifyIntroScreenPresented(introScreen, introScreenTolerant);
     
-    clickImg(checkbox, checkboxTolerant);
+    checkDontShowThisAgain(checkbox,checkboxTolerant);
+    test.log('Checkbox clicked');
     
     waitForImage(startBtn);
     
     clickStartButton();
+    
     snooze(5);
     
-    refreshTab();
-    
+    reloadBrowserTab();
+
     snooze(5);
     
     test.compare(waitForObjectExists(names.hud).visible, true);

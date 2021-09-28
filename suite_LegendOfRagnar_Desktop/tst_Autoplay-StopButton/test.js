@@ -3,19 +3,21 @@ source(findFile("scripts", "globalFunctions.js"));
 source(findFile("scripts", "suiteFunctions.js"));
 source(findFile("scripts", "images.js"));
 
-function main() 
-{
-    //clearCacheAndOpenGame(150,'!13223,!13223,!13223');
-    
-    openGame('cocos',150,'!13223,!13223,!13223','no');
-    
+function main() {
+
+    openGame('cocos', 150, '!13223,!13223,!13223', 'no');
+
+    snooze(5);
+
     clickStartButton();
-    
+
     startAutoplay();
-        
+    test.log('Auto started');
+
     snooze(3);
-    
-    clickImg(stopAutoplayBtn);
+
+    clickImg(stopAutoplayBtn, playBtnTolerant);
+    test.log('AutoStop btn clicked');
 
     test.imagePresent(playBtn);
 }

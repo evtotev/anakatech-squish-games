@@ -4,41 +4,46 @@ source(findFile("scripts", "balanceVerifications_slot.js"));
 source(findFile("scripts", "suiteFunctions.js"));
 source(findFile("scripts", "images.js"));
 
-function main()
-{
+function main() {
     //clearCacheAndOpenGame(282);
-        
-    openGame('construct2',282,'','no');
+
+    openGame('construct2', 282, '', 'no');
     
+    snooze(5);
+
     clickStartButton();
-    
+
     let totalBet = getTotalBet();
     test.log("totalBet: " + totalBet);
 
     let bet = getBet();
     test.log("bet: " + bet);
-    
+
     let gamesToPlay = 5;
     while (gamesToPlay > 0) {
         let oldBalance = getBalance();
         test.log('Old balance: ' + oldBalance);
-          
+
         test.pass(clickPlayButtonImage());
+        
         snooze(10);
+        
         handleBonusFSGames();
+        
         snooze(1);
-         
+
         let newBalance = getBalance();
         test.log('New balance: ' + newBalance);
-        snooze(1);
         
+        snooze(1);
+
         let totalWin = getTotalWin();
         test.log("totalWIn: " + totalWin);
-        
+
         test.log('' + gamesToPlay);
-        
-        verifyBalance(totalBet, oldBalance, newBalance, totalWin);      
-      
+
+        verifyBalance(totalBet, oldBalance, newBalance, totalWin);
+
         gamesToPlay--;
-    } 
+    }
 }

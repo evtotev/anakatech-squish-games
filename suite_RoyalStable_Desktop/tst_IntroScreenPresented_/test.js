@@ -19,9 +19,9 @@ function main()
     
     snooze(4);
     
-    refreshTab();
+    reloadBrowserTab();
     
-    snooze(3);
+    snooze(5);
 
     verifyIntroScreenPresented(checkbox);
 }

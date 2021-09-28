@@ -3,14 +3,12 @@ source(findFile("scripts", "globalFunctions.js"));
 source(findFile("scripts", "suiteFunctions.js"));
 source(findFile("scripts", "images.js"));
 
-function main() 
-{
-    //clearCacheAndOpenGame(275);
-        
-    openGame('construct2',275,'','no');
+function main() {
+
+    openGame('construct2', 275, '', 'no');
 
     clickStartButton();
-    
+
     startAutoplay();
 
     while (true) {
@@ -23,7 +21,7 @@ function main()
 
         }
 
-        handleBonusFSGames();
+        //handleBonusFSGames();
     }
 
     test.imagePresent(playBtn);

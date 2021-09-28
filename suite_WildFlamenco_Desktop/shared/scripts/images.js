@@ -85,7 +85,8 @@ const pickBonusBtnTolerant = {
 const bonusMenu = "bonusMenu";
 const bonusMenuTolerant = {
     tolerant: true,
-    threshold: 82.016//83
+    threshold: 82.016,//83
+    timeout: 50000
 };
 
 const betDecrease = "betDecrease";

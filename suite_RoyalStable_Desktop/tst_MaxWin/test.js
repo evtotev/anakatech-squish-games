@@ -3,11 +3,11 @@ source(findFile("scripts", "globalFunctions.js"));
 source(findFile("scripts", "balanceVerifications_slot.js"));
 source(findFile("scripts", "images.js"));
 
-function main() 
-{
-    //clearCacheAndOpenGame(275, 864);
-        
-    openGame('construct2',275,'864','no');
+function main() {
+
+    openGame('construct2', 275, '864', 'no');
+
+    snooze(5);
 
     clickStartButton();
 
@@ -47,4 +47,3 @@ function main()
 
     verifyBalanaceWhenMaxWin(newBalance, oldBalance, totalBet, 250);
 }
-

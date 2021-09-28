@@ -11,15 +11,19 @@ function main()
     
     openGame2('construct2',275,'','no');
     
+    snooze(10);
+    
     verifyIntroScreenPresented(checkbox);
     
     checkDontShowThisAgain(checkbox);
+    test.log('Checkbox clicked');
     
     clickStartButton();
-    snooze(3);
     
-    refreshTab();
-
+    snooze(4);
+    
+    reloadBrowserTab();
+    
     snooze(5);
     
     test.compare(waitForObjectExists(names.hud).visible, true);

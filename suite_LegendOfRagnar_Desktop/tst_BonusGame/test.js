@@ -3,12 +3,12 @@ source(findFile("scripts", "globalFunctions.js"));
 source(findFile("scripts", "balanceVerifications_slot.js"));
 source(findFile("scripts", "suiteFunctions.js"));
 source(findFile("scripts", "images.js"));
-function main()
-{
-    //clearCacheAndOpenGame(150, 13243);
-        
+
+function main() {        
+    
     openGame('cocos',150,'13243','no');
     
+    waitForImage(startBtn);
     clickStartButton();
     
     let totalBet = getTotalBet();    

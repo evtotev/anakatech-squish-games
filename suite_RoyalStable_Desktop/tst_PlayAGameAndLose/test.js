@@ -3,12 +3,13 @@ source(findFile("scripts", "globalFunctions.js"));
 source(findFile("scripts", "balanceVerifications_slot.js"));
 source(findFile("scripts", "images.js"));
 
-function main()
-{
+function main() {
     //clearCacheAndOpenGame(275, 830);
-        
-    openGame('construct2',275,'830','no');
+
+    openGame('construct2', 275, '830', 'no');
     
+    snooze(5);
+
     clickStartButton();
 
     let totalBet = getTotalBet();
@@ -16,9 +17,9 @@ function main()
 
     let oldBalance = getBalance();
     test.log('Old balance: ' + oldBalance);
-    
-    clickPlayButtonImage(); 
-      
+
+    clickPlayButtonImage();
+
     let newBalance = getBalance();
     test.log('New balance: ' + newBalance);
 
@@ -26,4 +27,3 @@ function main()
 
     verifyBalanceWhenLose(newBalance, oldBalance, totalBet);
 }
-

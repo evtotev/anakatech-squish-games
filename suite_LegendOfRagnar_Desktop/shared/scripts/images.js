@@ -110,3 +110,8 @@ const lastFSRound = "lastFSRound";
 
 const FSwinPopUp = "FS_you_win";
 
+const turboBtn = "turboBtn";
+const turboBtnTolerant = {
+    tolerant: true,
+    threshold: 99
+};

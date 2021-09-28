@@ -5,21 +5,20 @@ source(findFile("scripts", "suiteFunctions.js"));
 source(findFile("scripts", "images.js"));
 source(findFile("scripts", "imageVerifications.js"));
 
-function main() 
-{
+function main() {
     //clearCacheAndOpenGame(275, "830, 830, 830, 830");
-        
-    openGame('construct2',275,'830, 830, 830, 830','no');
+
+    openGame('construct2', 275, '830, 830, 830, 830', 'no');
+
+    snooze(5);
 
     clickStartButton();
-    
+
     clickPlayButtonImage();
-    waitForImage(stopBtn);
     test.log('Play button clicked')
-    clickStopButtonImage();
+    
+    clickStopButton();
+    
     waitForImage(playBtn, playBtnTolerant)
     test.log('Stop button clicked')
-
-        handleBonusFSGames();
-
 }

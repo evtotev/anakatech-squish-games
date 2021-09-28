@@ -4,12 +4,11 @@ source(findFile("scripts", "balanceVerifications_slot.js"));
 source(findFile("scripts", "suiteFunctions.js"));
 source(findFile("scripts", "images.js"));
 
-function main()
-{
-    //clearCacheAndOpenGame(275, 719);
+function main() {
         
     openGame('construct2',275,'!719','no');
     
+    waitForImage(startBtn);
     clickStartButton();
     
     let bet = getBet();
